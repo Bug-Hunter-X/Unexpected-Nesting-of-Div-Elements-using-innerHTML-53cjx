@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Correctly using innerHTML to insert text content only
+    document.getElementById("myDiv").innerHTML = "This text replaces the div content correctly";
+  </script>
+</body>
+</html>
