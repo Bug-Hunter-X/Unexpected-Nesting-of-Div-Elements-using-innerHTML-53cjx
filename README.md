@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML related to the incorrect usage of innerHTML when attempting to replace the content of an existing div element.  The bug leads to unexpected nesting of div elements instead of simply replacing the content. The solution provides the corrected way to handle this situation.
